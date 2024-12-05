@@ -1,0 +1,134 @@
+.logo{
+    max-width: 100px;
+}
+.poiret-one-regular {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.body{
+    justify-content: center;
+    align-items: center;
+}
+.main-text{
+    margin-top: 15px;
+}
+#main-text{margin-top: 15px;}
+.centered-text{
+    text-align: center;
+}
+.carousel-size{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.sale-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sale-content {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.large {
+    flex: 0 0 300px; /* Adjust this width for larger images */
+}
+
+.sale-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.sale-middle .sale-content {
+    flex: 0 0 145px; 
+    margin-bottom: 15px;
+}
+
+.sales-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.label {
+    padding: 4px 8px;
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+    background: #C3E957;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+
+.price {
+
+    padding: 4px 8px;
+    position: absolute;
+    bottom: 30px;
+    left: 60px;
+    background: #fff;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+}
+.img-fluid{
+    max-width: 300px;
+}
+
+.flower-card {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.flower-header h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.flower-body img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+}
+
+.flower-body .description {
+    font-size: 18px;
+    color: #495057;
+    margin-top: 10px;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.table td {
+    padding: 8px 12px;
+}
+
+.priceMain {
+    font-size: 24px;
+    color: #28a745;
+}
+
+.discount {
+    font-size: 20px;
+    color: #dc3545;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+}

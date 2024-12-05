@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Conservatory</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="images/icons/flower_icon.png" href="path-to-favicon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+      <nav class="navbar navbar-expand-lg navbar-light ">
+        <a href="index.html" class="navbar-brand right unique-text-color margin-left " >
+          <img class="logo mirror-image "src="images/icons/flower_icon.png" alt="logo"> Flower Conservatory
+        </a>
+        <div class="collapse navbar-collapse d-flex flex-row-reverse bd-highlight" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="shop.php">Магазин</a>
+            </li>
+            <a class="btn btn-outline-primary margin-right" id="cartBtn" href="cart.php">
+              Корзина (<span id="cartCounter">0</span>)
+            </a>
+              
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          
+        </div>
+        
+        </nav>
+      </header>
+    <hr>
+      <div>
+        <div class="centered-text main-text">
+          <h1 class="poiret-one-regular"> Цветы для любой причины</h1>
+        </div>
+      </div>
+      <div id="carouselExampleIndicators" class="carousel slide carousel-size" data-bs-ride="carousel">
+      
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/carousel1.png" class="d-block w-100" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="images/carousel2.png" class="d-block w-100" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="images/carousel3.png" class="d-block w-100" alt="">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div>
+        <div class="centered-text main-text">
+          <a class="btn btn-outline-primary margin-right" id="cartBtn" href="shop.php"> В Магазин </a>
+        </div>
+      </div>
+
+
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+      <script src="main.js"></script>
+</body>
+</html>
